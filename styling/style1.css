@@ -1,0 +1,312 @@
+/*Using 8:9 (1.125) ratio modular scale */
+html {
+  margin: auto;
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.266em;
+}
+
+ul li {
+  font-size: 1em; 
+  line-height: 2em; 
+  list-style-type: square;
+  color: #5f1047;   
+}
+
+h1 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #382264;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+h2{
+  color: #3822604;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  margin: auto;
+  font-size: 1.4em;
+  line-height: 2.266em;
+  width: 80%;
+}
+
+/* Jae-ger code */
+
+#header{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: .75em;
+  line-height: 2.266em;
+}
+
+/* 
+Additional Edits on Navigation
+*/
+
+#navigation ul,
+#navigation li {
+  display: block;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: 1.125em;
+  padding-left: 0.2em;
+  padding-right: 0.8em;
+  background-color: #A795C6; /*light purple*/
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+}
+
+#navigation ul{
+  opacity: .9;
+  text-align: center;
+  overflow: hidden;
+}
+
+#navigation li {
+  list-style-type: none;
+  display: inline;
+}
+
+#navigation li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+#navigation li a:hover {
+  background-color: #CECFD0; /*Earth grey color*/
+}
+
+li a.active {
+  background-color: #76b1ed;
+  color: white;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background: url(../media/background3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  margin-top: 30px;
+  color: #1F405F;
+}
+
+
+#footer ul li {
+  font-size: 1.266em; 
+  line-height: 1.424em;
+  list-style-type: none;
+  color: #3561F4; /*bright blue*/  
+  font: 1em Georgia, "Times New Roman", Times, serif;
+}
+
+/* Home */
+.peruinfo, .congressinfo{
+    border-bottom: 5px solid #0A5297;
+    padding-bottom: 20px;
+    border-width: 2px;
+    border: 5px solid black;
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.perubutton, .congressbutton{
+    border-radius: 4px;
+    background-color: #40CB9A;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 250px;
+}
+
+.perucontent, .congresscontent{
+    text-align: justify;
+    padding: 0px 10px 0px 10px
+}
+
+@media screen and (min-width: 1440px) {
+    #peru{
+        width: 84%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #peru{
+        width: 80%;
+    }
+}
+
+
+
+/* About */
+
+fieldset.explanation{
+  border: 2px solid #ccc;
+  width: 55%;
+  padding: 6px 8px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #7679bc;
+  margin: auto;
+  opacity: 1;
+  min-width:220px; 
+  
+  
+  /*border: .1px ;
+  width: 55%;
+  padding: 6px 8px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: transparent;
+  margin: auto;
+  opacity: 1;*/
+}
+
+ul.explanation{
+  
+  /*padding: 10px 20px;  
+  border-style: ridge;
+  border-width: 40%;
+  background-color: #e6695c;
+  margin: auto;
+  opacity: .75;*/
+  
+  list-style-type:disc;
+  font-size: 1em; 
+  line-height: 3em; 
+  color: brown; 
+  text-align: left;
+  
+}
+
+
+.pol{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 1em;
+  line-height: 2.266em;
+  width: 80%;  
+}
+
+figure.imgs{
+  text-align: center;	
+  width: 40%;
+  margin: auto; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+  margin-bottom: 25px;
+  min-width:250px; 
+  }
+
+figcaption.pol{
+  text-align: center;
+  padding: 10px 20px;  
+  border-style: ridge;
+  border-width: 2px;
+  background-color: #382264;
+  margin-bottom: 1.333em;
+  width: 90%;
+  min-width:190px; 
+}
+
+/* Events */
+table.center {
+  width: 96%;
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  border-style: ridge;
+  border-color: #382264;  
+}
+
+caption{
+  font-family: 'Comic Sans MS', cursive, sans-serif;	
+  text-align: center;
+  padding: 10px 20px;  
+  border-style: ridge;
+  border-width: 4px;
+  background-color: #382264;
+  margin-bottom: 1.333em;
+  margin-top: 1.333em;
+  font-size: 1.333em;  
+  line-height: 1em;
+  color: white;  
+}
+
+/* caption and titles*/
+th {
+  color: #7d1047;
+  text-align: center;
+  margin: auto;
+  border: 2px solid white;
+  font-size: 1em;  
+  line-height: 1.2em;
+}
+
+td {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #7d1047;
+  height: 50px;
+  margin:auto;
+  border: 2px solid white;
+  /* background-color: black; */
+  opacity: .9;
+}
+
+img{
+  width:98%;
+  min-width:80px;  
+}
+
+.cevent{
+  width:90%;
+  min-width:280px; 
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+/* Contacts */
+
+fieldset{
+  border: 3px solid gray;
+  width: 40%;
+  padding-bottom: 1.125em;
+  margin: auto;
+  background-color: #A795C6;
+  opacity: .75;
+}
+
+input{
+  border: 2px solid #ccc;
+  width: auto;
+  padding: 6px 8px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin: 6px 0;
+}
+
+.info{
+  padding: 4px 4px;
+  margin-top: 2px;
+  margin-bottom: 6px;
+}
+
+.la{ 
+  font-size: 28px; 
+  font-weight: bold;
+}
